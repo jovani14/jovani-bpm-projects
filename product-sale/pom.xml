@@ -14,9 +14,6 @@
 	</properties>
 
 	<dependencies>
-		<!-- <dependency> <groupId>org.jbpm.test</groupId> <artifactId>query-addons</artifactId> 
-			<version>0.0.1-SNAPSHOT</version> </dependency> -->
-		<!-- https://mvnrepository.com/artifact/org.jbpm/jbpm-test -->
 		<dependency>
 			<groupId>org.jbpm</groupId>
 			<artifactId>jbpm-test</artifactId>
@@ -27,6 +24,7 @@
 			<groupId>org.drools</groupId>
 			<artifactId>drools-persistence-jpa</artifactId>
 			<version>${jbpm.version}</version>
+			<scope>provided</scope>
 		</dependency>
 		<!-- <dependency> <groupId>org.jbpm</groupId> <artifactId>jbpm-bpmn2</artifactId> 
 			<version>${jbpm.version}</version> <scope>provided</scope> </dependency> -->
