@@ -27,6 +27,7 @@
 			<groupId>org.drools</groupId>
 			<artifactId>drools-persistence-jpa</artifactId>
 			<version>${jbpm.version}</version>
+			 <scope>provided</scope>
 		</dependency>
 		<!-- <dependency> <groupId>org.jbpm</groupId> <artifactId>jbpm-bpmn2</artifactId> 
 			<version>${jbpm.version}</version> <scope>provided</scope> </dependency> -->
