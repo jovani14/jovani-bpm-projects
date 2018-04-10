@@ -10,7 +10,7 @@ public class ProductSale extends org.drools.persistence.jpa.marshaller.VariableE
 
    static final long serialVersionUID = 1L;
 
-   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.SEQUENCE, generator = "PRODUCTSALE_ID_GENERATOR")
+   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "PRODUCTSALE_ID_GENERATOR")
    @javax.persistence.Id
    @javax.persistence.SequenceGenerator(name = "PRODUCTSALE_ID_GENERATOR", sequenceName = "PRODUCTSALE_ID_SEQ")
    private java.lang.Long id;
